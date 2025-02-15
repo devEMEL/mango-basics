@@ -13,6 +13,7 @@ const getBalance = async (owner, coinType) => {
   });
 }
 
+
 getBalance(MY_ADDRESS, coinType)
   .then((balance) => {
     console.log({ balance });
